@@ -213,10 +213,14 @@ function make_point(x, y) {
 }
 
 /**
+<<<<<<< HEAD
  * makes a color Point with given x and y coordinates, 
  * and RGB values ranging from 0 to 255. 
  * Any input lower than 0 will be rounded up to 0, 
  * and any input higher than 255 will be rounded down to 255.
+=======
+ * makes a color Point with given x and y coordinates, and RGB values
+>>>>>>> f9e78384807b597940e3946ef774869e6d4e3391
  * @param {Number} x - x-coordinate of new point
  * @param {Number} y - y-coordinate of new point
  * @param {Number} r - red component of new point
